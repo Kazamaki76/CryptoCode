@@ -16,9 +16,6 @@ This API provides current price information for specified cryptocurrencies. It u
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
 2. npm install
 3. Create envfile and add this into env
     CMC_API_KEY="APIKEY"
@@ -29,4 +26,4 @@ Use the following endpoint to get the name and current price of a cryptocurrency
     for example  http://localhost:3000/SOL
 5. For postman colletion
 
-{"info": {"name": "Crypto Price API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"}, "item": [{"name": "Get Crypto Price", "request": {"method": "GET", "header": [], "url": {"raw": "http://localhost:3000/:ticker", "protocol": "http", "host": ["localhost"], "port": "3000", "path": [":ticker"], "variable": [{"key": "ticker", "value": "SOL", "description": "Ticker symbol of the cryptocurrency"}]}}, "response": []}]}
+`{"info": {"name": "Crypto Price API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"}, "item": [{"name": "Get Crypto Price", "request": {"method": "GET", "header": [], "url": {"raw": "http://localhost:3000/:ticker", "protocol": "http", "host": ["localhost"], "port": "3000", "path": [":ticker"], "variable": [{"key": "ticker", "value": "SOL", "description": "Ticker symbol of the cryptocurrency"}]}}, "response": []}]}`

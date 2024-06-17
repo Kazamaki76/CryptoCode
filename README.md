@@ -24,6 +24,20 @@ This API provides current price information for specified cryptocurrencies. It u
 Use the following endpoint to get the name and current price of a cryptocurrency:
     http://localhost:3000/:ticker
     for example  http://localhost:3000/SOL
-5. For postman colletion
 
-`{"info": {"name": "Crypto Price API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"}, "item": [{"name": "Get Crypto Price", "request": {"method": "GET", "header": [], "url": {"raw": "http://localhost:3000/:ticker", "protocol": "http", "host": ["localhost"], "port": "3000", "path": [":ticker"], "variable": [{"key": "ticker", "value": "SOL", "description": "Ticker symbol of the cryptocurrency"}]}}, "response": []}]}`
+5 Usage 
+Use the following endpoint to get the name and current price of a cryptocurrency:
+
+http://localhost:3000/:ticker
+Replace :ticker with the ticker symbol of the cryptocurrency (e.g., BTC for Bitcoin).
+
+Example Request
+To get the current price of Solana (SOL):
+
+GET http://localhost:3000/SOL
+
+Example Response
+{
+  "name": "Solana",
+  "price": 47720.32
+}

@@ -31,13 +31,13 @@ Use the following endpoint to get the name and current price of a cryptocurrency
 http://localhost:3000/:ticker
 Replace :ticker with the ticker symbol of the cryptocurrency (e.g., BTC for Bitcoin).
 
-Example Request
-To get the current price of Solana (SOL):
+- Example Request
+    To get the current price of Solana (SOL):
 
-GET http://localhost:3000/SOL
+    GET http://localhost:3000/SOL
 
-Example Response
-{
-  "name": "Solana",
-  "price": 47720.32
-}
+- Example Response
+    {
+      "name": "Solana",
+      "price": 47720.32
+    }

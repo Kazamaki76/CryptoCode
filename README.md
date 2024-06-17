@@ -8,12 +8,12 @@ This API provides current price information for specified cryptocurrencies. It u
 - Cache responses to reduce redundant API calls and improve performance.
 - Built using Express.js and Axios.
 
-## Prerequisites
+### Prerequisites
 
 - Node.js and npm installed
 - CoinMarketCap API key
 
-## Installation
+#### Installation
 
 1. Clone the repository:
 2. npm install
@@ -25,7 +25,7 @@ Use the following endpoint to get the name and current price of a cryptocurrency
     http://localhost:3000/:ticker
     for example  http://localhost:3000/SOL
 
-5 Usage 
+##### Usage 
 Use the following endpoint to get the name and current price of a cryptocurrency:
 
 http://localhost:3000/:ticker
